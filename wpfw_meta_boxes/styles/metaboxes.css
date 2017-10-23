@@ -1,0 +1,18 @@
+a.cpt {
+	display: inline-block;
+	padding: 3px 5px;
+	border: 1px solid #e0e0e0;
+	box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #333;
+}
+a.cpt:before {
+	content: 'x';
+	display: inline-block;
+	margin-right: 5px;
+}
+a.cpt:hover {
+	color: #c00;
+	border-color: #c00;
+}
